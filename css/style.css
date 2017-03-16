@@ -501,7 +501,10 @@
 	.portfolio-wrapper .portfolio-overlay a{
 		color: #fff;
 		font-size: 35px;
+		padding:80px 160px 150px 160px;
+		margin: -100px;
 	}
+	
 	.portfolio-wrapper .portfolio-overlay a:hover{
 		color: #fff;
 	}
