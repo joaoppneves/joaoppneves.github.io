@@ -353,6 +353,10 @@
 		text-shadow: 2px 2px 6px #000000;
 	}
 
+	#home-carousel  a{
+		color: aquamarine;
+	}
+
 	#home-carousel .item h2 {
 		-webkit-transition: all 0.5s ease-in-out 0.30s;
 		-moz-transition: all 0.5s ease-in-out 0.30s;
