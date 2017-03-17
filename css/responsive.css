@@ -130,6 +130,10 @@
 		margin-bottom:20px;
 	}
 
+	.icon-scroll{
+		display:none;
+	}
+
 	.scroll-up{
 		display: none !important;
 	}
