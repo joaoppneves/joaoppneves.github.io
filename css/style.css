@@ -554,6 +554,11 @@ position: absolute;
 		color: #fff;
 	}
 
+	.mfp-title a{
+		color: #c7e013;
+		    margin-left: 25%;
+	}
+
 
 
 /* 8. PRICING */
