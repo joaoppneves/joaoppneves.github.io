@@ -226,7 +226,7 @@ zoom: {
         $(this).toggleClass('open');
     });
     $('#st-navbar-collapse').click(function(){
-        $('#nav-icon4).removeClass('open');
+        $('#nav-icon4').removeClass('open');
     });
 });
 
