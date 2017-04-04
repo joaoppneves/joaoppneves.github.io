@@ -116,9 +116,13 @@
 		height: 300px;
 	}
 
+	.carousel-caption{
+		font-size:13px;
+	}
+
 	.carousel-caption h1 {
-		font-size:16px;
-		margin-bottom:0;
+		font-size:20px;
+		margin-bottom:10px;
 		line-height:27px;
 		letter-spacing:2px;
 		font-weight:100;
