@@ -205,11 +205,13 @@
 		font-weight: 600;
 		padding: 0;
 		margin: 14px;
+		font-size:20px;
+		line-height:38px
 	}
 
 	.st-navbar ul li a:hover,
 	.st-navbar ul li a:focus {
-		background-color: transparent;
+		background-color: #d6d6d6;
 		color: #000;
 	}
 
@@ -226,6 +228,10 @@
 		margin-right: 25px;
 		padding: 0;
 		border-radius: 0;
+	}
+
+	#st-navbar-collapse{
+		text-align:center;
 	}
 
 
