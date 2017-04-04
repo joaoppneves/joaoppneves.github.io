@@ -211,7 +211,7 @@
 
 	.st-navbar ul li a:hover,
 	.st-navbar ul li a:focus {
-		background-color: #d6d6d6;
+		background-color: transparent;
 		color: #000;
 	}
 
@@ -234,7 +234,27 @@
 		text-align:center;
 	}
 
+	.navbar-header {
+        float: none; }
+    .navbar-toggle {
+        display: block; }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-static-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px; }
+    .navbar-collapse.collapse {
+        display: none !important; }
+        .navbar-collapse.collapse.in { 
+        display: block!important; 
+        margin-top: 0px; }
 
+    .navbar-toggle .icon-bar {
+    display: block;
+    width: 31px;
+    height: 6px;
+    border-radius: 1px;
+}
 
 /* 5. SLIDER */
 
