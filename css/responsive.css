@@ -186,8 +186,7 @@
 	}
 
 	#our-team, #pricing, #our-works, #services{
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding:50px;
 	}
 
 	.st-service {
