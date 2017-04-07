@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/animations_delay.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 	
 	<!-- Favicon -->
@@ -48,9 +50,14 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navbar-collapse">
 							<span class="sr-only">Toggle navigation</span>
+							<!-- <span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> -->
+							<div id="nav-icon4">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
 						</button>
 						<a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
 					</div>
@@ -90,12 +97,21 @@
 
 		<!-- BLOG -->
 		<section id="blog">
+			<div class="row display-table">
+				<div class="col-xs-12 col-md-8 display-cell">
+					<img id="escola_abertura" class="img-responsive animated fadeInLeft" src="images/portfolio/tele-escola.png" alt="">
+				</div>
+				<div class="col-xs-12 col-md-4 display-cell">
+					<p id="escola_texto" class="animated fadeInDown">Promoção de saúde para pais, alunos e professores.</p>
+				</div>
+			</div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="single-blog">
 							<article>
-								<div class="post-thumb"><img class="img-responsive" src="images/portfolio/telessaude-escola.jpg" alt=""></div>
+								<!-- <div class="post-thumb"><img class="img-responsive" src="images/portfolio/telessaude-escola.jpg" alt=""></div> -->
 								<h4 class="post-title"><a href="">Site do Projeto Telessaúde na Escola</a></h4>
 								<div class="post-meta text-uppercase">
 									<span>Desenvolvimento e direção de arte</span>
@@ -108,36 +124,36 @@
 									Elaborado pelo Laboratório de Telessaúde da UERJ com a participação de alunos de Iniciação Científica Júnior e apoio Unidades Acadêmicas da UERJ.<br>
 
 									<strong>Ilustrações e layout por Taís Mallouk. </strong>
-								<!-- <a href="" class="btn btn-readmore">Read More</a> -->
-							</article>
-						</div>
-						<hr>
+									<!-- <a href="" class="btn btn-readmore">Read More</a> -->
+								</article>
+							</div>
+							<hr>
 
-						<div class="single-blog">
-							<article>
-								<div class="post-slider">
-									<div id="post-carousel" class="carousel slide" data-ride="carousel">			
-										<div class="carousel-inner">
-											<div class="item active">
-												<img src="images/portfolio/telessaude-escola-sites.jpg" alt="">
-											</div>
-											<div class="item">
-												<img src="images/portfolio/cem.jpg" alt="">			
-											</div>
-											<div class="item">
-												<img src="images/portfolio/dengue.jpg" alt="">			
-											</div>
+							<div class="single-blog">
+								<article>
+									<div class="post-slider">
+										<div id="post-carousel" class="carousel slide" data-ride="carousel">			
+											<div class="carousel-inner">
+												<div class="item active">
+													<img src="images/portfolio/telessaude-escola-sites.jpg" alt="">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/cem.jpg" alt="">			
+												</div>
+												<div class="item">
+													<img src="images/portfolio/dengue.jpg" alt="">			
+												</div>
 
-											<a class="post-carousel-left" href="#post-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-											<a class="post-carousel-right" href="#post-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-										</div>		
-									</div> 
-								</div>
-								
-								<a href="index.html" class="btn btn-readmore"> < VOLTAR	</a>
-							</article>
-						</div>
-						<!-- <hr> -->
+												<a class="post-carousel-left" href="#post-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+												<a class="post-carousel-right" href="#post-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+											</div>		
+										</div> 
+									</div>
+
+									<a href="index.html#our-works" class="btn btn-readmore"> < VOLTAR	</a>
+								</article>
+							</div>
+							<!-- <hr> -->
 
 					<!-- 	<ul class="pagination">
 							<li><a href="#"><i class="fa fa-angle-left"></i></a></li>

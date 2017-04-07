@@ -903,7 +903,7 @@
 					padding-top: 50px;
 					padding-bottom: 0px;
 					position: relative;
-					margin-bottom: 50px;
+					// margin-bottom: 50px;
 					margin-top: 80px;
 				}
 
@@ -919,6 +919,7 @@
 
 				.post-meta{
 					margin-bottom: 15px;
+					margin-top: 15px;
 				}
 
 				.post-meta span{
@@ -1175,6 +1176,18 @@
 				}
 
 
+				/* 16. PAGINAS INTERNAS */
 
+				.display-table{
+					display: table;
+					table-layout: fixed;
+					margin:0px;
+				}
 
-
+				.display-cell{
+					display: table-cell;
+					vertical-align: middle;
+					float: none;
+					font-size: 3vw;
+					padding:0px !important;
+				}

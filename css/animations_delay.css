@@ -1,0 +1,29 @@
+#escola_abertura{
+
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	animation-duration: 3s;
+
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	animation-delay: 0s;
+
+	// -webkit-animation-iteration-count: infinite;
+	// -moz-animation-iteration-count: infinite;
+	// animation-iteration-count: infinite;
+}
+
+#escola_texto{
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	animation-duration: 3s;
+
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	animation-delay: 0s;
+
+	// -webkit-animation-iteration-count: infinite;
+	// -moz-animation-iteration-count: infinite;
+	// animation-iteration-count: infinite;
+
+}
