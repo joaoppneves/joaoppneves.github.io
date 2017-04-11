@@ -1194,13 +1194,29 @@
 				}
 
 				.legenda {
-					    left: 15px;
-    right: 15px;
-    top: 100% !important;
-    font-size: 18px;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000000;
-    margin-top: -130px;
-    opacity: 1;
+					left: 15px;
+					right: 15px;
+					top: 100% !important;
+					font-size: 18px;
+					text-align: center;
+					color: #fff;
+					text-shadow: 1px 1px 1px #000000;
+					margin-top: -130px;
+					opacity: 1;
 				}
+
+				.flags{
+					margin-top:-280px;
+				}
+
+				.flags a {
+					margin-right: 20px;
+
+				}
+
+				.link_volta{
+					    color: #185453;
+				}
+
+
+			
