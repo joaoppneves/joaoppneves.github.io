@@ -13617,3 +13617,6 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+.rs-fullvideo-cover{
+	background: rgba(26, 89, 138, 0.38) !important;
+}
